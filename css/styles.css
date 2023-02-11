@@ -15,9 +15,6 @@ body{
     background-color: #A9A9A9;
 }
 
-
-
-
 /*Navigation Syles*/
 nav{
     width: 70%;
@@ -60,6 +57,8 @@ main p{
    color: #FFFFFF;
 }
 
+
+/*div id styles*/
 #info{
   width: 70%;
   float: left;
@@ -87,7 +86,7 @@ main p{
     text-decoration: none;
     color: #0000FF;
 }
-
+/*div id styles2*/
 #list{
   width: 70%;
   float: left;
@@ -106,6 +105,7 @@ main p{
     list-style-type: square;
 }
 
+/*footer styles*/
 footer a{
     color: #0000FF;
     font-size: 0.75em;
@@ -115,6 +115,7 @@ footer a{
     bottom: 0;
 }
 
+/*img styles*/
 img{
  display: block;
  max-width: 100%;
