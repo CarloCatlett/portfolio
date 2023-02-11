@@ -100,7 +100,8 @@ main{
 
 footer a{
     color: #6495ED;
-    text-decoration: none;
+    font-size: 0.75em;
+    text-align: center;
 }
 
 img{
