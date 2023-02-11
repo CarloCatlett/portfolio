@@ -5,7 +5,75 @@ File: style.css
 */
 
 /*CSS Reset*/
-header, body, main, footer, nav, h1, h3, img{
+header, body, main, footer, nav, h1, h3, img, div{
   margin: 0;
   padding: 0;
+}
+
+body{
+    background-color: #ccc
+}
+
+nav{
+    width: 70%;
+    float: right;
+    margin: 5em 3em 0 0;
+}
+
+nav ul{
+    list-style-type: name;
+    margin: 0;
+    text-align: right;
+}
+
+
+nav li{
+    display: inline-block;
+    font-size: 1.5em;
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: bold;
+}
+
+
+nav li a{
+    display: block;
+    color: ##6495ED;
+    text-align: center;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    text-weight: bold;
+}
+
+main{
+    clear: left;
+    background-color: #fff;
+    padding: 2%;
+    font-size: 1.25;
+}
+
+#info{
+  width: 70%;
+  float: left;
+  margin: 5em 3em 0 0; 
+}
+
+#info ul{
+    list-style-type: name;
+    margin: 0;
+    text-align: center;
+}
+
+#info li{
+  display: inline-block;
+    font-size: 1.5em;
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: bold;
+}
+
+
+
+
+img{
+ display: block;
+ max-width: 100%;
 }
