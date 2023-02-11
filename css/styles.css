@@ -105,6 +105,10 @@ main p{
     list-style-type: square;
 }
 
+#list p{
+    color: #000000;
+}
+
 /*footer styles*/
 footer a{
     color: #0000FF;
