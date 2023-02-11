@@ -48,11 +48,16 @@ nav li a{
     font-weight: bold;
 }
 
+/*main styles*/
 main{
     clear: left;
     background-color: #404040;
     padding: 2%;
     font-size: 1.25em;
+}
+
+main p{
+   color: #FFFFFF;
 }
 
 #info{
