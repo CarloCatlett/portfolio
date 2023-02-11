@@ -15,9 +15,7 @@ body{
     background-color: #A9A9A9;
 }
 
-body p{
- color: #FFFFFF; 
-}
+
 
 
 /*Navigation Syles*/
@@ -92,15 +90,15 @@ main{
 }
 
 #list ul{
-    list-style-type: square;
+    
     margin: 0;
     text-align: center;
 }
 
 #list li{
-    display: inline-block;
     font-size: 1em;
     font-family: Verdana, Arial, sans-serif;
+    list-style-type: square;
 }
 
 footer a{
