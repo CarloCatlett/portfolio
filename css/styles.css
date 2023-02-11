@@ -101,7 +101,7 @@ footer a{
     font-size: 0.75em;
     text-align: center;
     position: absolute;
-    text-weight: bold;
+    font-weight: bold;
     bottom: 0;
 }
 
