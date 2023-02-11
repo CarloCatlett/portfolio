@@ -13,7 +13,10 @@ header, body, main, footer, nav, h1, h3, img, div{
 /*Body styes*/
 body{
     background-color: #A9A9A9;
-    color: #FFFFFF;
+}
+
+body p{
+ color: #FFFFFF; 
 }
 
 
