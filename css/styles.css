@@ -29,16 +29,15 @@ nav ul{
 
 nav li{
     display: inline-block;
-    font-size: 1.5em;
+    font-size: 1em;
     font-family: Verdana, Arial, sans-serif;
-    font-weight: bold;
 }
 
 
 nav li a{
     display: block;
     color: #6495ED;
-    text-align: center;
+    text-align: left;
     padding: 0.5em 1em;
     text-decoration: none;
     text-weight: bold;
@@ -55,7 +54,7 @@ main{
   width: 70%;
   float: left;
   margin: 5em 3em 0 0; 
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 #info ul{
@@ -66,14 +65,13 @@ main{
 
 #info li{
   display: inline-block;
-    font-size: 1.5em;
+    font-size: 1e;
     font-family: Verdana, Arial, sans-serif;
-    font-weight: bold;
 }
 
 #info li a{
     display: inline-block;
-    font-size: 1.5em;
+    font-size: 1em;
     font-family: Verdana, Arial, sans-serif;
     font-weight: bold;
     text-decoration: none;
@@ -94,9 +92,8 @@ main{
 
 #list li{
     display: inline-block;
-    font-size: 1.5em;
+    font-size: 1em;
     font-family: Verdana, Arial, sans-serif;
-    font-weight: bold;
 }
 
 footer a{
@@ -104,6 +101,7 @@ footer a{
     font-size: 0.75em;
     text-align: center;
     position: absolute;
+    text-weight: bold;
     bottom: 0;
 }
 
