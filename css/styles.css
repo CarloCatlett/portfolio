@@ -5,3 +5,7 @@ File: style.css
 */
 
 /*CSS Reset*/
+header, body, main, footer, nav, h1, img{
+  margin: 0;
+  padding: 0;
+}
