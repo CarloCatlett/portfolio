@@ -40,7 +40,7 @@ nav li a{
     text-align: left;
     padding: 0.5em 1em;
     text-decoration: none;
-    text-weight: bold;
+    font-weight: bold;
 }
 
 main{
@@ -75,7 +75,7 @@ main{
     font-family: Verdana, Arial, sans-serif;
     font-weight: bold;
     text-decoration: none;
-    color: ##6495ED;
+    color: #6495ED;
 }
 
 #list{
