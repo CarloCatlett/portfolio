@@ -37,7 +37,7 @@ nav li{
 
 nav li a{
     display: block;
-    color: ##6495ED;
+    color: #6495ED;
     text-align: center;
     padding: 0.5em 1em;
     text-decoration: none;
@@ -70,8 +70,38 @@ main{
     font-weight: bold;
 }
 
+#info li a{
+    display: inline-block;
+    font-size: 1.5em;
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: ##6495ED;
+}
 
+#list{
+  width: 70%;
+  float: left;
+  margin: 5em 3em 0 0;
+}
 
+#list ul{
+    list-style-type: name;
+    margin: 0;
+    text-align: center;
+}
+
+#list li{
+    display: inline-block;
+    font-size: 1.5em;
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: bold;
+}
+
+footer a{
+    color: #6495ED;
+    text-decoration: none;
+}
 
 img{
  display: block;
