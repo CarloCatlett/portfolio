@@ -47,7 +47,7 @@ main{
     clear: left;
     background-color: #fff;
     padding: 2%;
-    font-size: 1.25;
+    font-size: 1.25em;
 }
 
 #info{
@@ -65,7 +65,7 @@ main{
 
 #info li{
   display: inline-block;
-    font-size: 1e;
+    font-size: 1em;
     font-family: Verdana, Arial, sans-serif;
 }
 
