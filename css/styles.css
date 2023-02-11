@@ -53,11 +53,6 @@ main{
     font-size: 1.25em;
 }
 
-main p{
-   color: #FFFFFF;
-}
-
-
 /*div id styles*/
 #info{
   width: 70%;
