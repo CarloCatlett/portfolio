@@ -1,126 +1,233 @@
-/* 
-Name: Carlo Catlett
-Date: 02/11/2023
-File: style.css
-*/
-
-/*CSS Reset*/
-header, body, main, footer, nav, h1, h3, img, div{
+/* Reset default styles */
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-/*Body styes*/
-body{
-    background-color: #A9A9A9;
+/* Set global font and background color */
+body {
+  font-family: "Vibur", sans-serif;;
+  background-color: #323030;
+  color: #FFFFFF;
 }
 
-/*Navigation Syles*/
-nav{
-    width: 70%;
-    float: left;
-    margin: 5em 3em 0 0;
+#container {
+  position: relative;
+  min-height: 100vh;
 }
 
-nav ul{
-    list-style-type: name;
-    margin: 0;
-    text-align: left;
+#wrap{
+  padding-bottom: 2.5rem;
 }
 
-
-nav li{
-    display: inline-block;
-    font-size: 1em;
-    font-family: Verdana, Arial, sans-serif;
+/* Style the header and navigation bar */
+header {
+  background-color: #212121;
+  padding: 20px;
 }
 
-
-nav li a{
-    display: block;
-    color: #0000FF;
-    text-align: left;
-    padding: 0.5em 1em;
-    text-decoration: none;
-    font-weight: bold;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-/*main styles*/
-main{
-    clear: left;
-    background-color: #404040;
-    padding: 2%;
-    font-size: 1.25em;
+nav ul {
+  display: flex;
+  list-style: none;
 }
 
-/*div id styles*/
-#info{
-  width: 70%;
-  float: left;
-  margin: 5em 3em 0 0; 
-  font-size: 1em;
+nav li {
+  margin-right: 20px;
 }
 
-#info ul{
-    list-style-type: name;
-    margin: 0;
-    text-align: center;
+nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 20px;
 }
 
-#info li{
-  display: inline-block;
-    font-size: 1em;
-    font-family: Verdana, Arial, sans-serif;
+nav a:hover {
+  color: #ff0000;
 }
 
-#info li a{
-    display: inline-block;
-    font-size: 1em;
-    font-family: Verdana, Arial, sans-serif;
-    font-weight: bold;
-    text-decoration: none;
-    color: #0000FF;
+/* Style the main section */
+main {
+  padding: 50px;
 }
 
-#info p{
-  color: #000000;
+section {
+  margin-bottom: 50px;
 }
 
-/*div id styles2*/
-#list{
-  width: 70%;
-  float: left;
-  margin: 5em 3em 0 0;
+h1, h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
 }
 
-#list ul{
-    
-    margin: 0;
-    text-align: left;
+h1 {
+  font-size: 48px;
 }
 
-#list li{
-    font-size: 1em;
-    font-family: Verdana, Arial, sans-serif;
-    list-style-type: square;
+h2 {
+  font-size: 36px;
 }
 
-#list p{
-    color: #000000;
+p {
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 30px;
 }
 
-/*footer styles*/
-footer p a{
-    color: #0000FF;
-    font-size: 0.75em;
-    text-align: center;
-    float: center;
-    font-weight: bold;
-    bottom: 0;
+ul {
+  list-style: none;
+  font-size: 24px;
 }
 
-/*img styles*/
-img{
- display: block;
- max-width: 100%;
+li::before {
+  content: "▹";
+  margin-right: 10px;
+  color: #ff0000;
+}
+
+/* Style the footer */
+#footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 3.5rem; 
+}
+footer {
+  background-color: #1A1A1A;
+  padding: 25px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 16px;
+  color: #FFFFFF;
+  
+}
+
+footer a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #ff0000;
+}
+.glitch:hover {
+  position: relative;
+  animation: glitch-anim 9s infinite;
+  animation-fill-mode: backwards;
+}
+
+@keyframes glitch-anim {
+  0% {
+    transform: translate(0, 0);
+    text-shadow: 0 0 2px #ff0000, 0 0 2px #ff0000;
+  }
+  25% {
+    transform: translate(5px, -5px);
+    text-shadow: 0 0 10px #ff0000, 0 0 10px #ff0000;
+  }
+  50% {
+    transform: translate(-5px, 5px);
+    text-shadow: 0 0 2px #ff0000, 0 0 2px #ff0000;
+  }
+  75% {
+    transform: translate(5px, 5px);
+    text-shadow: 0 0 10px #ff0000, 0 0 10px #ff0000;
+  }
+  100% {
+    transform: translate(-5px, -5px);
+    text-shadow: 0 0 2px #ff0000, 0 0 2px #ff0000;
+  }
+}
+.neonText {
+  color: #fff;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #ff0000,
+      0 0 82px #ff0000,
+      0 0 2px #ff0000,
+      0 0 7px #ff0000,
+      0 0 120px #ff0000;
+  animation: flicker 5s infinite alternate;
+}
+.neonText2:hover{
+  color: #fff;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #ff0000,
+      0 0 82px #ff0000,
+      0 0 2px #ff0000,
+      0 0 7px #ff0000,
+      0 0 120px #ff0000;
+      animation: flicker .6s infinite alternate;
+      animation-fill-mode: forwards;
+
+}
+.neonText3 {
+  color: #fff;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #058e09,
+      0 0 21px #058e09,
+      0 0 2px #058e09,
+      0 0 71px #058e09,
+      0 0 120px #058e09;
+}
+.neonText4 {
+  color: #fff;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #ff0000,
+      0 0 82px #ff0000,
+      0 0 2px #ff0000,
+      0 0 7px #ff0000,
+      0 0 120px #ff0000;
+}
+@keyframes flicker {
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #ff0000,
+    0 0 82px #ff0000,
+    0 0 2px #ff0000,
+    0 0 7px #ff0000,
+    0 0 120px #ff0000;
+  }
+  20%, 24%, 55% {       
+    text-shadow: none;
+  }
+}
+
+.logo {
+  border: solid 5px;
+  border-radius: 50%;
+  color: #fff;
+  box-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 32px #e4e12f,
+      0 0 42px #e4e12f,
+      0 0 2px #e4e12f,
+      0 0 7px #e4e12f,
+      0 0 8px #e4e12f;
 }
