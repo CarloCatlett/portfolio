@@ -134,7 +134,32 @@ footer a:hover {
   animation: glitch-anim 9s infinite;
   animation-fill-mode: backwards;
 }
+/*viewport for mobile*/
 
+/*Media Query for Tablet Viewrport*/
+@media print, screen and (min-width: 620px ) {
+/*Tablet Viewport: Show tab-desk class, hide mobile class*/
+.tab-desk{
+  display: block;
+}
+.mobile{
+  display: none;
+}
+  
+/*viewport for desktop*/
+@media screen, print and (min-width: 1000px){
+nav li{
+  font-size: 1.5em;
+}
+nav li a {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+/*viewport for large desktop*/
+@media screen and (min-width: 1921px)
+{}
 @keyframes glitch-anim {
   0% {
     transform: translate(0, 0);
