@@ -54,62 +54,6 @@ nav a {
 nav a:hover {
   color: #ff0000;
 }
-/* hamburger nav*/
-.hamburger {
-  display: none;
-  cursor: pointer;
-}
-
-.hamburger span,
-.hamburger span:before,
-.hamburger span:after {
-  display: block;
-  content: '';
-  height: 2px;
-  width: 25px;
-  background-color: #fff;
-  border-radius: 2px;
-  position: relative;
-  transition: all 0.2s ease-in-out;
-}
-
-.hamburger span:before {
-  top: -8px;
-}
-
-.hamburger span:after {
-  top: 8px;
-}
-
-@media (max-width: 767px) {
-  .hamburger {
-    display: block;
-  }
-  
-  nav ul {
-    display: none;
-    flex-direction: column;
-    background-color: #333;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    padding: 1rem;
-  }
-  
-  nav li {
-    margin: 0;
-  }
-  
-  nav a {
-    display: block;
-    padding: 0.5rem 0;
-  }
-  
-  .show-menu {
-    display: flex !important;
-  }
-}
 
 /* Style the main section */
 main {
